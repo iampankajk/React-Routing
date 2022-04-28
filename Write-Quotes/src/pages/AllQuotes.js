@@ -1,6 +1,12 @@
+import QuoteList from '../components/quotes/QuoteList'
+const DUMMY_QUOTES = [
+    {id:'p1',author:'Max',text:'Learning React is fun!'},
+    {id:'p2',author:'Joe',text:'Learning React is great!'},
+]
+
 const AllQuotes = ()=>{
     return(
-        <h1>All Quote Page</h1>
+        <QuoteList quotes={DUMMY_QUOTES}></QuoteList>
     )
 };
 
